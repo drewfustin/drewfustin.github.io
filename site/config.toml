@@ -1,17 +1,85 @@
-# The URL the site will be built for
+# - Main configuration -------------------------------------------------------------------------------------------------
+
 base_url = "https://drewfustin.com"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
+title = "df := 'Drew Fustin'"
+description = "personal website of Drew Fustin"
+author = "Drew Fustin"
+default_language = "en"
+output_dir = "public"
 build_search_index = true
+compile_sass = true
+hard_link_static = false
+minify_html = false
+preserve_dotfiles_in_output = false
+generate_feed = true
+feed_filename = "atom.xml"
+ignored_content = []
+ignored_static = []
 
+# The taxonomies to be rendered for the site and their configuration of the default languages
+# Example:
+#     taxonomies = [
+#       {name = "tags", feed = true}, # each tag will have its own feed
+#       {name = "tags"}, # you can have taxonomies with the same name in multiple languages
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no feed or pagination
+#     ]
+#
+taxonomies = []
+
+
+# - Markdown configuration ---------------------------------------------------------------------------------------------
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
 
+highlight_code = true
+highlight_theme = "1337"
+render_emoji = true
+external_links_target_blank = false
+external_links_no_follow = false
+external_links_no_referrer = false
+smart_punctuation = false
+lazy_async_image = false
+extra_syntaxes_and_themes = []
+
+
+# - Link Checker configuration -----------------------------------------------------------------------------------------
+[link_checker]
+
+internal_level = "error"
+external_level = "error"
+skip_prefixes = []
+skip_anchor_prefixes = []
+
+
+# - Slugification strategy ---------------------------------------------------------------------------------------------
+[slugify]
+
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+paths_keep_dates = false
+
+
+# - Search configuration -----------------------------------------------------------------------------------------------
+[search]
+
+include_title = true
+include_description = false
+include_path = false
+include_content = true
+index_format = "elasticlunr_javascript"
+
+
+# - User-Defined Extra configurations ----------------------------------------------------------------------------------
 [extra]
-# Put all your custom variables here
-resume_file = "/pdf/resume__drewfustin__20240101.pdf"
+
+# You can put any kind of data here. The data will be accessible in all templates (e.g. {{ config.extra.author }})
+# Example:
+#     [extra]
+#     author = "Famous author"
+
+resume_file = "/pdf/drewfustin_resume__20240528.pdf"
+twitter = "drewfustin"
+github = "drewfustin"
+linkedin = "drewfustin"
+calendly = "drewfustin"
