@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
+<h1 class="title">About the Author</h1>
+<div class="avatar"><img src="/img/{{ config.extra.avatar_file }}" alt="picture of author" class="rounded"></div>
+{{ config.description | safe }}
 {% endblock content %}

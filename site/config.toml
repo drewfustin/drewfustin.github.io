@@ -2,7 +2,24 @@
 
 base_url = "https://drewfustin.com"
 title = "df := 'Drew Fustin'"
-description = "personal website of Drew Fustin"
+description = """
+Hello!<br><br> \
+
+I'm Drew Fustin. I live in the peaceful Forest Glen neighborhood of Chicago with my wife, three kids, and dog. \
+I'm somewhat of a data leader, having over a decade of experience building data organizations and developing machine \
+learning products, at companies ranging from pre-Series A startups to post-IPO megaliths. I've created and managed \
+data teams, and I've built and maintained software from end-to-end: infrastructure + feature engineering + model \
+training + service deployment. You can find out more about me or schedule some of my time using those links above in \
+the header.<br><br>
+
+Under the LLC-pseudonym of <a href="https://www.linkedin.com/company/27018422" target="_blank">Sage Array</a>, I \
+provide consulting and contracting services for early- to mid-stage tech companies across the breadth of the data \
+science and data engineering disciplines.<br><br>
+
+In another life, I received my PhD in physics from the University of Chicago for \
+<a href="https://arxiv.org/abs/2401.07384" target="_blank">studying dark matter by looking for tiny bubbles in a glass \
+jar filled with fire suppressent over a mile underground in an active Canadian nickel mine</a>. As you do.
+"""
 author = "Drew Fustin"
 default_language = "en"
 output_dir = "public"
@@ -78,8 +95,10 @@ index_format = "elasticlunr_javascript"
 #     [extra]
 #     author = "Famous author"
 
-resume_file = "/pdf/drewfustin_resume__20240528.pdf"
+blog = "/ls"
 twitter = "drewfustin"
 github = "drewfustin"
 linkedin = "drewfustin"
 calendly = "drewfustin"
+avatar_file = "df-with-glass.jpg"
+resume_file = "drewfustin_resume__20240528.pdf"

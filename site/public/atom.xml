@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>df := &#x27;Drew Fustin&#x27;</title>
-    <subtitle>personal website of Drew Fustin</subtitle>
+    <subtitle>Hello!&lt;br&gt;&lt;br&gt; I&#x27;m Drew Fustin. I live in the peaceful Forest Glen neighborhood of Chicago with my wife, three kids, and dog. I&#x27;m somewhat of a data leader, having over a decade of experience building data organizations and developing machine learning products, at companies ranging from pre-Series A startups to post-IPO megaliths. I&#x27;ve created and managed data teams, and I&#x27;ve built and maintained software from end-to-end: infrastructure + feature engineering + model training + service deployment. You can find out more about me or schedule some of my time using those links above in the header.&lt;br&gt;&lt;br&gt;
+
+Under the LLC-pseudonym of &lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;27018422&quot; target=&quot;_blank&quot;&gt;Sage Array&lt;&#x2F;a&gt;, I provide consulting and contracting services for early- to mid-stage tech companies across the breadth of the data science and data engineering disciplines.&lt;br&gt;&lt;br&gt;
+
+In another life, I received my PhD in physics from the University of Chicago for &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2401.07384&quot; target=&quot;_blank&quot;&gt;studying dark matter by looking for tiny bubbles in a glass jar filled with fire suppressent over a mile underground in an active Canadian nickel mine&lt;&#x2F;a&gt;. As you do.
+</subtitle>
     <link rel="self" type="application/atom+xml" href="https://drewfustin.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://drewfustin.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
