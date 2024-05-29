@@ -15,7 +15,7 @@
   --nav-logo-quote-color: var(--color-high);
   --nav-logo-space-opacity: 0.05;
   --nav-logo-operator-opacity: 0.25;
-  --nav-link-count: 7;
+  --nav-link-count: 8;
   --nav-logo-height: 32px;
   --nav-link-size: 16px;
   --gap-size: 8px;
@@ -78,6 +78,9 @@
 .navbar-link {
   display: flex;
   grid-row: 2;
+  font-family: var(--font-code), monospace;
+  color: var(--color-lite);
+  font-size: 12px;
 
   svg {
     width: var(--nav-link-size);
