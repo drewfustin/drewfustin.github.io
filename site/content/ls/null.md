@@ -1,5 +1,6 @@
 +++
 title = "A Basically Empty Post"
+path = "null"
 date = 2019-11-28
 +++
 

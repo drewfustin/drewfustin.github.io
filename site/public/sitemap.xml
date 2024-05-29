@@ -7,14 +7,14 @@
         <loc>https://drewfustin.com/ls/</loc>
     </url>
     <url>
-        <loc>https://drewfustin.com/ls/empty/</loc>
+        <loc>https://drewfustin.com/null/</loc>
         <lastmod>2019-11-28</lastmod>
     </url>
     <url>
-        <loc>https://drewfustin.com/ls/style/</loc>
-        <lastmod>2024-04-22</lastmod>
+        <loc>https://drewfustin.com/resume/</loc>
     </url>
     <url>
-        <loc>https://drewfustin.com/resume/</loc>
+        <loc>https://drewfustin.com/test/</loc>
+        <lastmod>2024-04-22</lastmod>
     </url>
 </urlset>
