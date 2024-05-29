@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://drewfustin.com/blog/first/"/>
-        <id>https://drewfustin.com/blog/first/</id>
+        <link rel="alternate" type="text/html" href="https://drewfustin.com/ls/first/"/>
+        <id>https://drewfustin.com/ls/first/</id>
         
-        <content type="html" xml:base="https://drewfustin.com/blog/first/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et &lt;a href=&quot;https:&#x2F;&#x2F;google.com&quot;&gt;dolore magna aliqua&lt;&#x2F;a&gt;. Auctor elit sed vulputate mi sit amet mauris. Morbi tempus iaculis urna id. &lt;em&gt;Nunc scelerisque viverra mauris&lt;&#x2F;em&gt; in aliquam sem fringilla ut. Velit euismod in pellentesque massa placerat. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Commodo nulla facilisi nullam vehicula ipsum a arcu. &lt;strong&gt;Feugiat in ante&lt;&#x2F;strong&gt; metus dictum at tempor commodo ullamcorper. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Consectetur adipiscing elit ut aliquam purus. Facilisi nullam vehicula ipsum a arcu. Hac habitasse platea dictumst quisque sagittis purus sit. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Suspendisse faucibus interdum posuere lorem. Diam sollicitudin tempor id eu nisl.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://drewfustin.com/ls/first/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et &lt;a href=&quot;https:&#x2F;&#x2F;google.com&quot;&gt;dolore magna aliqua&lt;&#x2F;a&gt;. Auctor elit sed vulputate mi sit amet mauris. Morbi tempus iaculis urna id. &lt;em&gt;Nunc scelerisque viverra mauris&lt;&#x2F;em&gt; in aliquam sem fringilla ut. Velit euismod in pellentesque massa placerat. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Commodo nulla facilisi nullam vehicula ipsum a arcu. &lt;strong&gt;Feugiat in ante&lt;&#x2F;strong&gt; metus dictum at tempor commodo ullamcorper. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Consectetur adipiscing elit ut aliquam purus. Facilisi nullam vehicula ipsum a arcu. Hac habitasse platea dictumst quisque sagittis purus sit. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Suspendisse faucibus interdum posuere lorem. Diam sollicitudin tempor id eu nisl.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#191919;color:#f8f8f2;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;font-style:italic;color:#ff5e5e;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8cdaff;&quot;&gt;func&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#fc9354;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;) -&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;:
 &lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6d6d6d;&quot;&gt;&amp;quot;&amp;quot;&amp;quot;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6d6d6d;&quot;&gt;  docstring, really really long docstring that will take too much space and will go over the allotted column width
@@ -66,10 +66,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://drewfustin.com/blog/third/"/>
-        <id>https://drewfustin.com/blog/third/</id>
+        <link rel="alternate" type="text/html" href="https://drewfustin.com/ls/third/"/>
+        <id>https://drewfustin.com/ls/third/</id>
         
-        <content type="html" xml:base="https://drewfustin.com/blog/third/">&lt;p&gt;I&#x27;m testing my github pages deploy.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://drewfustin.com/ls/third/">&lt;p&gt;I&#x27;m testing my github pages deploy.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -86,10 +86,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://drewfustin.com/blog/second/"/>
-        <id>https://drewfustin.com/blog/second/</id>
+        <link rel="alternate" type="text/html" href="https://drewfustin.com/ls/second/"/>
+        <id>https://drewfustin.com/ls/second/</id>
         
-        <content type="html" xml:base="https://drewfustin.com/blog/second/">&lt;p&gt;This is my second blog post.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://drewfustin.com/ls/second/">&lt;p&gt;This is my second blog post.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
