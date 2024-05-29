@@ -2,11 +2,11 @@
   --font-base: "Open Sans";
   --font-code: "Hack";
   --font-title: "Oswald";
-  --font-quote: "Oswald";
-  --color-deep: #21545E;
-  --color-high: #CE5C56;
-  --color-lite: #dfdfdf;
-  --color-dark: #313131;
+  --font-quote: "Lato";
+  --color-deep: #006884;
+  --color-high: #F41F4E;
+  --color-lite: #DFDFDF;
+  --color-dark: #202020;
   --color-link: var(--color-deep);
   --color-link-hover: var(--color-high);
   --nav-background-color: var(--color-dark);
@@ -106,11 +106,6 @@ body {
   margin: 0;
 }
 
-code {
-  font-family: var(--font-code), monospace;
-  background-color: var(--color-lite);
-}
-
 a {
   color: var(--color-link);
   text-decoration: none;
@@ -127,6 +122,12 @@ a:after {
   content: "⤴";
 }
 
+code {
+  font-family: var(--font-code), monospace;
+  background-color: var(--color-lite);
+  padding: 0px 4px;
+}
+
 pre {
   padding: var(--code-padding);
   overflow: auto;
@@ -135,6 +136,7 @@ pre {
 pre code {
   font-size: 0.9em;
   background-color: transparent;
+  padding: 0px;
 }
 
 pre[data-linenos] {
@@ -189,6 +191,7 @@ pre table td:nth-of-type(1) {
 .subtitle {
   font-family: var(--font-title), sans-serif;
   font-size: 1em;
+  opacity: 0.5;
   margin-block-start: 0.5em;
   margin-block-end: 2.0em;
 }
@@ -196,37 +199,54 @@ pre table td:nth-of-type(1) {
 h1 {
   font-family: var(--font-title), sans-serif;
   font-size: 1.8em;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.5em;
 }
 
 h2 {
   font-family: var(--font-title), sans-serif;
   font-size: 1.5em;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.5em;
 }
 
 h3 {
   font-family: var(--font-title), sans-serif;
   font-size: 1.2em;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.25em;
 }
 
 h4 {
   font-family: var(--font-title), sans-serif;
   font-size: 1.0em;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.25em;
 }
 
 h5 {
   font-family: var(--font-title), sans-serif;
   font-size: 1.0em;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.25em;
 }
 
 h6 {
   font-family: var(--font-title), sans-serif;
   font-size: 1.0em;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.25em;
 }
 
 blockquote {
   font-family: var(--font-quote), sans-serif;
+  font-weight: 700;
   margin-inline-start: var(--min-margin);
   margin-inline-end: 0px;
+}
+
+blockquote strong {
+  font-weight: 900;
 }
 
 ::selection {
