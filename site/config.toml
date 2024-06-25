@@ -12,7 +12,7 @@ data teams, and I've built and maintained software from end-to-end: infrastructu
 training + service deployment. You can find out more about me or schedule some of my time using those links above in \
 the header.<br><br>
 
-Under the LLC-pseudonym of <a href="https://www.linkedin.com/company/27018422" target="_blank">Sage Array</a>, I \
+Under the LLC-pseudonym of <a href="https://www.linkedin.com/company/27018422" target="_blank">De Facto Labs</a>, I \
 provide consulting and contracting services for early- to mid-stage tech companies across the breadth of the data \
 science and data engineering disciplines.<br><br>
 
@@ -28,8 +28,6 @@ compile_sass = true
 hard_link_static = false
 minify_html = false
 preserve_dotfiles_in_output = false
-generate_feed = true
-feed_filename = "atom.xml"
 ignored_content = []
 ignored_static = []
 
