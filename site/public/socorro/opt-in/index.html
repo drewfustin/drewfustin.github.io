@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opt-in Process | Socorro by Drew Fustin</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://drewfustin.com/site.css">
+  <style>
+    main { max-width: 40rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.6; }
+    table { border-collapse: collapse; }
+    th, td { border: 1px solid currentColor; padding: 0.25rem 0.5rem; text-align: left; }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Opt-in Process</h1>
+    <p><strong>Drew Fustin</strong>: Socorro household texts<br>
+      <em>Effective November 20, 2026</em></p>
+    <p>Socorro is an automated AI assistant application operated by Drew Fustin. It texts only
+      members of Drew Fustin's household who have opted in, as described here.</p>
+
+    <h2>1. Verbal consent, in person</h2>
+    <p>Drew Fustin asks each household member in person, using this script:</p>
+    <blockquote>"Want texts from Socorro, our family assistant? She'll send reminders, schedule
+      changes, and answers to your questions. Message frequency varies, and message and data
+      rates may apply. Reply STOP anytime to stop, or HELP for help. The terms are at
+      drewfustin.com/socorro/terms. If you want them, text her number to start."</blockquote>
+    <p>No one is signed up without saying yes.</p>
+
+    <h2>2. How the number is given</h2>
+    <p>For each person who says yes, Drew Fustin gives them Socorro's number in person and saves
+      it in their phone's contacts under the name "Socorro". The number is not advertised or
+      published anywhere.</p>
+
+    <h2>3. The person texts first</h2>
+    <p>Socorro never texts anyone first. Each person opts in by sending Socorro a text
+      themselves. Socorro's first reply confirms it:</p>
+    <blockquote>Socorro (Drew Fustin's family assistant): you're signed up for household texts.
+      Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt
+      out.</blockquote>
+
+    <h2>4. How consent is recorded</h2>
+    <p>Socorro's software keeps a consent record for every household member: an entry when they
+      opt in (with their name, mobile number, the date and time of their opting-in text, and
+      the message ID of that text and of the confirmation), and an entry whenever they reply STOP
+      or START. Socorro can only text household members whose latest record is an opt-in.
+      Records are kept privately; the fields look like this:</p>
+    <table>
+      <tr><th>Event</th><th>Name</th><th>Mobile</th><th>Date and time</th><th>How</th></tr>
+      <tr><td>opted in</td><td>(household member)</td><td>(their mobile)</td>
+        <td>(time of their first text)</td><td>first text; confirmation sent</td></tr>
+      <tr><td>opted out</td><td>(household member)</td><td>(their mobile)</td>
+        <td>(time of their STOP)</td><td>replied STOP</td></tr>
+    </table>
+
+    <h2>5. Opting out</h2>
+    <p>Anyone can reply <strong>STOP</strong> at any time; they get one confirmation and no
+      more texts. <strong>START</strong> opts back in, and <strong>HELP</strong> gets help.</p>
+
+    <p>See the <a href="/socorro/terms/">Terms &amp; Conditions</a> and the
+      <a href="/socorro/privacy/">Privacy Policy</a>.</p>
+  </main>
+</body>
+
+</html>
